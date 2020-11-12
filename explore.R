@@ -1,3 +1,6 @@
+## goes along with our work on OSF here: https://osf.io/uhk48/wiki/home/
+## write Mike on slack if you don't have access to that
+
 # these all need to be loaded first
 library(tidyverse)
 library(vegan)

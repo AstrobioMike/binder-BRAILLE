@@ -1,0 +1,138 @@
+KO_ID	KO_name	KO_def
+K00184	dmsB	dimethyl sulfoxide reductase iron-sulfur subunit
+K00185	dmsC	dimethyl sulfoxide reductase membrane subunit
+K00299	ssuE	FMN reductase
+K00380	cysJ	sulfite reductase (NADPH) flavoprotein alpha-component
+K00381	cysI	sulfite reductase (NADPH) hemoprotein beta-component
+K00385	asrC	anaerobic sulfite reductase subunit C
+K00386	sorB	sulfite dehydrogenase (cytochrome) subunit B
+K00387	SUOX	sulfite oxidase
+K00390	cysH	phosphoadenosine phosphosulfate reductase
+K00392	sir	sulfite reductase (ferredoxin)
+K00394	aprA	adenylylsulfate reductase, subunit A
+K00395	aprB	adenylylsulfate reductase, subunit B
+K00640	cysE	serine O-acetyltransferase
+K00641	metX	homoserine O-acetyltransferase/O-succinyltransferase
+K00651	metA	homoserine O-succinyltransferase/O-acetyltransferase
+K00860	cysC	adenylylsulfate kinase
+K00955	cysNC	bifunctional enzyme CysN/CysC
+K00956	cysN	sulfate adenylyltransferase subunit 1
+K00957	cysD	sulfate adenylyltransferase subunit 2
+K00958	sat, met3	sulfate adenylyltransferase
+K00988	APA1_2	sulfate adenylyltransferase (ADP) / ATP adenylyltransferase
+K01011	TST, MPST, sseA	thiosulfate/3-mercaptopyruvate sulfurtransferase
+K01082	cysQ, MET22, BPNT1	3'(2'), 5'-bisphosphate nucleotidase
+K01738	cysK	cysteine synthase
+K01739	metB	cystathionine gamma-synthase
+K02045	cysA	sulfate/thiosulfate transport system ATP-binding protein
+K02046	cysU	sulfate/thiosulfate transport system permease protein
+K02047	cysW	sulfate/thiosulfate transport system permease protein
+K02048	cysP	sulfate/thiosulfate transport system substrate-binding protein
+K02439	glpE	thiosulfate sulfurtransferase
+K03119	tauD	taurine dioxygenase
+K04091	ssuD	alkanesulfonate monooxygenase
+K05301	sorA	sulfite dehydrogenase (cytochrome) subunit A
+K05907	APR	adenylyl-sulfate reductase (glutathione)
+K05908	doxDA	thiosulfate dehydrogenase (quinone)
+K06881	nrnA	bifunctional oligoribonuclease and PAP phosphatase NrnA
+K07306	dmsA	anaerobic dimethyl sulfoxide reductase subunit A
+K07307	dmsB	anaerobic dimethyl sulfoxide reductase subunit B
+K07308	dmsC	anaerobic dimethyl sulfoxide reductase subunit C
+K08352	phsA, psrA	thiosulfate reductase / polysulfide reductase chain A
+K08353	phsB	thiosulfate reductase electron transport protein
+K08354	phsC	thiosulfate reductase cytochrome b subunit
+K08357	ttrA	tetrathionate reductase subunit A
+K08358	ttrB	tetrathionate reductase subunit B
+K08359	ttrC	tetrathionate reductase subunit C
+K10150	cysO	cysteine synthase / O-phosphoserine sulfhydrylase / cystathionine beta-synthase
+K10764	metZ	O-succinylhomoserine sulfhydrylase
+K10831	tauB	taurine transport system ATP-binding protein
+K11180	dsrA	dissimilatory sulfite reductase alpha subunit
+K11181	dsrB	dissimilatory sulfite reductase beta subunit
+K13034	ATCYSC1	L-3-cyanoalanine synthase/ cysteine synthase
+K13811	PAPSS	3'-phosphoadenosine 5'-phosphosulfate synthase
+K15422	SAL	3'(2'), 5'-bisphosphate nucleotidase / inositol polyphosphate 1-phosphatase
+K15551	tauA	taurine transport system substrate-binding protein
+K15552	tauC	taurine transport system permease protein
+K15553	ssuA	sulfonate transport system substrate-binding protein
+K15554	ssuC	sulfonate transport system permease protein
+K15555	ssuB	sulfonate transport system ATP-binding protein
+K15759	IMPAD1, IMPA3	Golgi-resident PAP phosphatase
+K15762	tmoC, tbuB, touC	toluene monooxygenase system ferredoxin subunit
+K15765	tmoF, tbuC, touF	toluene monooxygenase electron transfer component
+K16936	doxA	thiosulfate dehydrogenase (quinone) small subunit
+K16937	doxD	thiosulfate dehydrogenase (quinone) large subunit
+K16950	asrA	anaerobic sulfite reductase subunit A
+K16951	asrB	anaerobic sulfite reductase subunit B
+K16952	sor	sulfur oxygenase/reductase
+K16953	dddL	dimethylpropiothetin dethiomethylase
+K16954	mtsA	methylthiol:coenzyme M methyltransferase
+K16955	mtsB	methylated-thiol--corrinoid protein
+K16964	ddhA	dimethylsulfide dehydrogenase subunit alpha
+K16965	ddhB	dimethylsulfide dehydrogenase subunit beta
+K16966	ddhC	dimethylsulfide dehydrogenase subunit gamma
+K16967	dmoA	dimethyl-sulfide monooxygenase
+K16968	msmA	methanesulfonate monooxygenase subunit alpha
+K16969	msmB	methanesulfonate monooxygenase subunit beta
+K17069	MET17	O-acetylhomoserine/O-acetylserine sulfhydrylase
+K17217	mccB	cystathionine gamma-lyase / homocysteine desulfhydrase
+K17218	sqr	sulfide:quinone oxidoreductase
+K17219	sreA	sulfur reductase molybdopterin subunit
+K17220	sreB	sulfur reductase FeS subunit
+K17221	sreC	sulfur reductase membrane anchor
+K17222	soxA	L-cysteine S-thiosulfotransferase
+K17223	soxX	L-cysteine S-thiosulfotransferase
+K17224	soxB	S-sulfosulfanyl-L-cysteine sulfohydrolase
+K17225	soxC	sulfane dehydrogenase subunit SoxC
+K17226	soxY	sulfur-oxidizing protein SoxY
+K17227	soxZ	sulfur-oxidizing protein SoxZ
+K17228	sfnG	dimethylsulfone monooxygenase
+K17229	fccB	sulfide dehydrogenase [flavocytochrome c] flavoprotein chain
+K17230	fccA	cytochrome subunit of sulfide dehydrogenase
+K17285	SELENBP1	methanethiol oxidase
+K17486	dmdA	dimethylsulfoniopropionate demethylase
+K17725	ETHE1	sulfur dioxygenase
+K17993	hydA	sulfhydrogenase subunit alpha
+K17994	hydD	sulfhydrogenase subunit delta
+K17995	hydG	sulfhydrogenase subunit gamma (sulfur reductase)
+K17996	hydB	sulfhydrogenase subunit beta (sulfur reductase)
+K20034	dmdB	3-(methylthio)propionyl---CoA ligase
+K20035	dmdC	3-(methylthio)propanoyl-CoA dehydrogenase
+K20036	dmdD	(methylthio)acryloyl-CoA hydratase
+K21307	soeA	sulfite dehydrogenase (quinone) subunit SoeA
+K21308	soeB	sulfite dehydrogenase (quinone) subunit SoeB
+K21309	soeC	sulfite dehydrogenase (quinone) subunit SoeC
+K21310	mddA	methanethiol S-methyltransferase
+K22470	SQOR	eukaryotic sulfide quinone oxidoreductase
+K22622	soxD	S-disulfanyl-L-cysteine oxidoreductase SoxD
+K22966	HINT4	sulfate adenylyltransferase (ADP) / adenylylsulfatase
+K23163	sbp	sulfate/thiosulfate transport system substrate-binding protein
+K23304	cysE	serine O-acetyltransferase
+K00566	mnmA, trmU	tRNA-uridine 2-sulfurtransferase
+K03148	thiF	sulfur carrier protein ThiS adenylyltransferase
+K03151	thiI	tRNA uracil 4-sulfurtransferase
+K03154	thiS	sulfur carrier protein
+K03635	MOCS2B, moaE	molybdopterin synthase catalytic subunit
+K03636	moaD, cysO	sulfur-carrier protein
+K03637	moaC, CNX3	cyclic pyranopterin monophosphate synthase
+K03638	moaB	molybdopterin adenylyltransferase
+K03639	moaA, CNX2	GTP 3',8-cyclase
+K03831	mogA	molybdopterin adenylyltransferase
+K04085	tusA, sirA	tRNA 2-thiouridine synthesizing protein A
+K04487	iscS, NFS1	cysteine desulfurase
+K07235	tusD, dsrE	tRNA 2-thiouridine synthesizing protein D
+K07236	tusC, dsrF	tRNA 2-thiouridine synthesizing protein C
+K07237	tusB, dsrH	tRNA 2-thiouridine synthesizing protein B
+K11179	tusE, dsrC	tRNA 2-thiouridine synthesizing protein E
+K11996	MOCS3, UBA4	adenylyltransferase and sulfurtransferase
+K12161	URM1	ubiquitin related modifier 1
+K14168	CTU1, NCS6	cytoplasmic tRNA 2-thiolation protein 1
+K14169	CTU2, NCS2	cytoplasmic tRNA 2-thiolation protein 2
+K14171	AHP1	alkyl hydroperoxide reductase 1
+K21028	ynjE	molybdopterin synthase sulfurtransferase
+K21029	moeB	molybdopterin-synthase adenylyltransferase
+K21140	mec	[CysO sulfur-carrier protein]-S-L-cysteine hydrolase
+K21142	moaX	MoaE-MoaD fusion protein
+K21147	moeZR, moeBR	sulfur-carrier protein adenylyltransferase/sulfurtransferase
+K21148	cysM	[CysO sulfur-carrier protein]-thiocarboxylate-dependent cysteine synthase
+K21232	MOCS2A, CNXG	molybdopterin synthase sulfur carrier subunit

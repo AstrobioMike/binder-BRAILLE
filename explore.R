@@ -22,7 +22,14 @@ load("BRAILLE-mg.RData")
 
 # tables with KO information for each group are available in the browser at the bottom right under the "Files" tab
 
-# e.g. to plot K10946	pmoC-amoC	methane/ammonia monooxygenase subunit C
+# e.g. to plot K10946	pmoC-amoC	methane/ammonia monooxygenase subunit C from the nitrogem metabolism overview
 plot_single_KO("K10946", N_KO_gene_df_list)
+
+# or K11180	dsrA	dissimilatory sulfite reductase alpha subunit from the sulfur metabolism overview
+plot_single_KO("K11180", sulfur_KO_gene_df_list)
+  # that gives a bunch of warnings and empty plot
+  # can check the counts like so:
+sulfur_KO_gene_df_list[["counts"]] %>% filter(KO_ID == "K11180")
+  # seems there are no hits for that one
 
 # will update this soon with more functionality and examples

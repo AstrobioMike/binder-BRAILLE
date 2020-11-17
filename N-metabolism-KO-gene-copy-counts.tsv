@@ -1,0 +1,66 @@
+KO_ID	VAL_A09	VAL_B04	VAL_C05	VAL_D01	VAL_E02	YEL_A01	YEL_B04	YEL_C01	YEL_D03	YEL_E01	sum	mean	stdev	CoV	KO_name	KO_def
+K00260	0	3	0	1	0	0	0	0	3	0	7	0.7	1.25166555703457	1.78809365290653	gudB, rocG	glutamate dehydrogenase
+K00261	122	126	67	63	54	110	79	86	145	58	910	91	32.4037034920393	0.356084653758674	GLUD1_2, gdhA	glutamate dehydrogenase (NAD(P)+)
+K00262	17	28	11	13	22	24	19	13	23	18	188	18.8	5.49343041985404	0.292203745736917	E1.4.1.4, gdhA	glutamate dehydrogenase (NADP+)
+K00264	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	GLT1	glutamate synthase (NADH)
+K00265	50	49	52	59	74	57	66	43	47	44	541	54.1	9.96047745397333	0.184112337411707	gltB	glutamate synthase (NADPH) large chain
+K00266	85	84	95	98	118	99	113	84	87	100	963	96.3	11.9819308405059	0.124422957845337	gltD	glutamate synthase (NADPH) small chain
+K00284	0	1	0	0	0	0	0	0	1	0	2	0.2	0.421637021355784	2.10818510677892	GLU, gltS	glutamate synthase (ferredoxin)
+K00360	1	0	2	2	6	2	9	3	0	6	31	3.1	2.96085573216033	0.955114752309783	nasB	assimilatory nitrate reductase electron transfer subunit
+K00362	33	44	78	58	89	60	95	39	57	73	626	62.6	20.8976341031972	0.333828020817847	nirB	nitrite reductase (NADH) large subunit
+K00363	22	38	50	27	60	48	71	40	48	60	464	46.4	15.1891774336569	0.32735296193226	nirD	nitrite reductase (NADH) small subunit
+K00366	16	22	32	30	33	10	21	12	23	12	211	21.1	8.55634916954136	0.405514178651249	nirA	ferredoxin-nitrite reductase
+K00367	2	0	0	0	0	3	1	0	1	1	8	0.8	1.03279555898864	1.29099444873581	narB	ferredoxin-nitrate reductase
+K00368	39	36	20	12	21	19	10	13	22	18	210	21	9.60324019392529	0.45729715209168	nirK	nitrite reductase (NO-forming)
+K00370	22	24	17	15	14	13	13	5	11	11	145	14.5	5.50252467307306	0.379484460211935	narG, narZ, nxrA	nitrate reductase / nitrite oxidoreductase, alpha subunit
+K00371	28	28	13	13	22	15	10	9	13	13	164	16.4	7.02693231629406	0.428471482700857	narH, narY, nxrB	nitrate reductase / nitrite oxidoreductase, beta subunit
+K00372	7	12	24	10	29	5	29	7	5	9	137	13.7	9.74166310236604	0.711070299442777	nasA	assimilatory nitrate reductase catalytic subunit
+K00374	7	7	12	15	23	13	16	8	15	15	131	13.1	4.93175650475794	0.376469962195262	narI, narV	nitrate reductase gamma subunit
+K00376	9	17	1	1	1	10	1	0	4	2	46	4.6	5.60158707669333	1.21773632102029	nosZ	nitrous-oxide reductase
+K00459	130	166	278	232	250	215	216	156	199	195	2037	203.7	44.6842005386443	0.219362791058637	ncd2, npd	nitronate monooxygenase
+K00531	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	anfG	nitrogenase delta subunit
+K00926	68	72	43	39	43	48	40	66	59	45	523	52.3	12.6495498382793	0.241865197672644	arcC	carbamate kinase
+K01455	33	26	39	56	61	26	39	52	23	58	413	41.3	14.4533733086778	0.349960612800915	E3.5.1.49	formamidase
+K01501	42	35	51	66	49	58	47	62	53	62	525	52.5	9.74394398816231	0.185598933107854	E3.5.5.1	nitrilase
+K01672	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	CA	carbonic anhydrase
+K01673	165	195	205	137	182	264	216	121	248	156	1889	188.9	46.1505988886144	0.244312328685095	cynT, can	carbonic anhydrase
+K01674	12	8	10	0	1	12	5	7	8	3	66	6.6	4.27395211328656	0.647568502013115	cah	carbonic anhydrase
+K01725	35	29	50	54	68	32	67	30	38	53	456	45.6	14.8264028753512	0.32514041393314	cynS	cyanate lyase
+K01743	1	0	1	3	0	0	1	3	1	2	12	1.2	1.13529242439509	0.946077020329245	E4.2.1.1	carbonic anhydrase
+K01915	397	416	450	574	445	589	548	678	540	610	5247	524.7	93.1987720472277	0.177622969405808	glnA, GLUL	glutamine synthetase
+K01948	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	CPS1	carbamoyl-phosphate synthase (ammonia)
+K02305	2	4	0	0	1	3	1	0	1	0	12	1.2	1.3984117975602	1.1653431646335	norC	nitric oxide reductase subunit C
+K02567	1	3	1	0	1	2	0	0	0	0	8	0.8	1.03279555898864	1.29099444873581	napA	nitrate reductase (cytochrome)
+K02568	1	2	1	0	1	3	0	0	0	1	9	0.9	0.994428926011753	1.10492102890195	napB	nitrate reductase (cytochrome), electron transfer subunit
+K02575	40	66	56	65	94	58	106	67	58	104	714	71.4	22.2171105231981	0.311164012929945	NRT, narK, nrtP, nasA	MFS transporter, NNP family, nitrate/nitrite transporter
+K02586	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	nifD	nitrogenase molybdenum-iron protein alpha chain
+K02588	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	nifH	nitrogenase iron protein NifH
+K02591	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	nifK	nitrogenase molybdenum-iron protein beta chain
+K03385	26	16	8	0	0	25	9	0	3	5	92	9.2	9.94205433723053	1.08065808013375	nrfA	nitrite reductase (cytochrome c-552)
+K04561	6	5	12	9	17	10	21	8	3	15	106	10.6	5.68037557443754	0.535884488154485	norB	nitric oxide reductase subunit B
+K05601	0	0	0	0	1	0	0	0	0	0	1	0.1	0.316227766016838	3.16227766016838	hcp	hydroxylamine reductase
+K10534	0	0	0	0	1	0	0	0	0	0	1	0.1	0.316227766016838	3.16227766016838	NR	nitrate reductase (NAD(P)H)
+K10535	7	11	9	1	3	9	5	1	4	4	54	5.4	3.47051068928543	0.642687164682487	hao	hydroxylamine dehydrogenase
+K10944	20	35	18	7	7	22	10	3	26	10	158	15.8	10.1083024181995	0.639765975835411	pmoA-amoA	methane/ammonia monooxygenase subunit A
+K10945	21	30	21	6	4	20	8	5	43	10	168	16.8	12.6912043032435	0.755428827574019	pmoB-amoB	methane/ammonia monooxygenase subunit B
+K10946	17	32	26	9	7	16	11	2	35	12	167	16.7	10.9549582888805	0.655985526280268	pmoC-amoC	methane/ammonia monooxygenase subunit C
+K15371	38	36	66	81	77	61	94	77	45	90	665	66.5	21.0145452273208	0.31600819890708	GDH2	glutamate dehydrogenase
+K15576	54	43	53	4	45	42	56	6	51	17	371	37.1	20.212482391939	0.544810846143909	nrtA, nasF, cynA	nitrate/nitrite transport system substrate-binding protein
+K15577	69	68	79	7	46	70	84	15	77	46	561	56.1	26.9668520801207	0.480692550447785	nrtB, nasE, cynB	nitrate/nitrite transport system permease protein
+K15578	20	29	28	4	24	13	41	3	14	12	188	18.8	11.933147112141	0.634741867667076	nrtC, nasD	nitrate/nitrite transport system ATP-binding protein
+K15579	0	1	0	0	1	2	1	0	2	0	7	0.7	0.823272602348565	1.17610371764081	nrtD, cynD	nitrate/nitrite transport system ATP-binding protein
+K15864	1	1	0	0	0	1	0	0	0	0	3	0.3	0.483045891539648	1.61015297179883	nirS	nitrite reductase (NO-forming) / hydroxylamine reductase
+K15876	27	15	9	0	0	30	8	0	5	1	95	9.5	11.1679103785006	1.17556951352638	nrfH	cytochrome c nitrite reductase small subunit
+K15877	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	CYP55	fungal nitric oxide reductase
+K17877	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	NIT-6	nitrite reductase (NAD(P)H)
+K18245	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	CA2	carbonic anhydrase 2
+K18246	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	CA4	carbonic anhydrase 4
+K19823	4	5	19	20	15	6	21	17	0	25	132	13.2	8.66410218468519	0.656371377627666	NAO	nitroalkane oxidase
+K20932	698	897	537	859	634	915	666	389	1325	527	7447	744.7	266.602929883042	0.358000442974408	K20932	hydrazine synthase subunit
+K20933	62	84	47	54	42	151	58	19	121	33	671	67.1	40.8532604437992	0.608841437314444	K20933	hydrazine synthase subunit
+K20934	129	140	39	67	46	154	85	35	225	38	958	95.8	63.966657981587	0.667710417344332	K20934	hydrazine synthase subunit
+K20935	11	18	13	6	7	23	13	11	16	11	129	12.9	5.0651313463281	0.392645840800628	hdh	hydrazine dehydrogenase
+K22896	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	vnfD	vanadium-dependent nitrogenase alpha chain
+K22897	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	vnfK	vanadium-dependent nitrogenase beta chain
+K22898	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	vnfG	vanadium nitrogenase delta subunit
+K22899	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	vnfH	vanadium nitrogenase iron protein

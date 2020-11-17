@@ -1,0 +1,191 @@
+KO_ID	KO_name	KO_def
+K00018	hprA	glycerate dehydrogenase
+K00024	mdh	malate dehydrogenase
+K00058	serA, PHGDH	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase
+K00093	mdh	methanol dehydrogenase
+K00121	frmA, ADH5, adhC	S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase
+K00122	FDH	formate dehydrogenase
+K00123	fdoG, fdhF, fdwA	formate dehydrogenase major subunit
+K00124	fdoH, fdsB	formate dehydrogenase iron-sulfur subunit
+K00125	fdhB	formate dehydrogenase (coenzyme F420) beta subunit
+K00126	fdsD	formate dehydrogenase subunit delta
+K00127	fdoI, fdsG	formate dehydrogenase subunit gamma
+K00148	fdhA	glutathione-independent formaldehyde dehydrogenase
+K00169	porA	pyruvate ferredoxin oxidoreductase alpha subunit
+K00170	porB	pyruvate ferredoxin oxidoreductase beta subunit
+K00171	porD	pyruvate ferredoxin oxidoreductase delta subunit
+K00172	porC, porG	pyruvate ferredoxin oxidoreductase gamma subunit
+K00189	vorG, porG	2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+K00192	cdhA	anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit alpha
+K00193	cdhC	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit beta
+K00194	cdhD, acsD	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta
+K00195	cdhB	anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit epsilon
+K00196	cooF	anaerobic carbon-monoxide dehydrogenase iron sulfur subunit
+K00197	cdhE, acsC	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma
+K00198	cooS, acsA	anaerobic carbon-monoxide dehydrogenase catalytic subunit
+K00200	fwdA, fmdA	formylmethanofuran dehydrogenase subunit A
+K00201	fwdB, fmdB	formylmethanofuran dehydrogenase subunit B
+K00202	fwdC, fmdC	formylmethanofuran dehydrogenase subunit C
+K00203	fwdD, fmdD	formylmethanofuran dehydrogenase subunit D
+K00204	fwdH	4Fe-4S ferredoxin
+K00205	fwdF, fmdF	4Fe-4S ferredoxin
+K00300	mtdA	methylenetetrahydrofolate/methylenetetrahydromethanopterin dehydrogenase (NADP+)
+K00317	dmd-tmd	dimethylamine/trimethylamine dehydrogenase
+K00319	mtd	methylenetetrahydromethanopterin dehydrogenase
+K00320	mer	5,10-methylenetetrahydromethanopterin reductase
+K00399	mcrA	methyl-coenzyme M reductase alpha subunit
+K00400	K00400	methyl coenzyme M reductase system, component A2
+K00401	mcrB	methyl-coenzyme M reductase beta subunit
+K00402	mcrG	methyl-coenzyme M reductase gamma subunit
+K00440	frhA	coenzyme F420 hydrogenase subunit alpha
+K00441	frhB	coenzyme F420 hydrogenase subunit beta
+K00442	frhD	coenzyme F420 hydrogenase subunit delta
+K00443	frhG	coenzyme F420 hydrogenase subunit gamma
+K00577	mtrA	tetrahydromethanopterin S-methyltransferase subunit A
+K00578	mtrB	tetrahydromethanopterin S-methyltransferase subunit B
+K00579	mtrC	tetrahydromethanopterin S-methyltransferase subunit C
+K00580	mtrD	tetrahydromethanopterin S-methyltransferase subunit D
+K00581	mtrE	tetrahydromethanopterin S-methyltransferase subunit E
+K00582	mtrF	tetrahydromethanopterin S-methyltransferase subunit F
+K00583	mtrG	tetrahydromethanopterin S-methyltransferase subunit G
+K00584	mtrH	tetrahydromethanopterin S-methyltransferase subunit H
+K00600	glyA, SHMT	glycine hydroxymethyltransferase
+K00625	E2.3.1.8, pta	phosphate acetyltransferase
+K00672	ftr	formylmethanofuran--tetrahydromethanopterin N-formyltransferase
+K00830	AGXT	alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase
+K00831	serC, PSAT1	phosphoserine aminotransferase
+K00850	pfkA, PFK	6-phosphofructokinase 1
+K00863	DAK, TKFC	triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+K00918	pfkC	ADP-dependent phosphofructokinase/glucokinase
+K00925	ackA	acetate kinase
+K01007	pps, ppsA	pyruvate, water dikinase
+K01070	frmB, ESD, fghA	S-formylglutathione hydrolase
+K01079	serB, PSPH	phosphoserine phosphatase
+K01086	fbp-SEBP	fructose-1,6-bisphosphatase I / sedoheptulose-1,7-bisphosphatase
+K01499	mch	methenyltetrahydromethanopterin cyclohydrolase
+K01595	ppc	phosphoenolpyruvate carboxylase
+K01622	K01622	fructose 1,6-bisphosphate aldolase/phosphatase
+K01623	ALDO	fructose-bisphosphate aldolase, class I
+K01624	FBA, fbaA	fructose-bisphosphate aldolase, class II
+K01689	ENO, eno	enolase
+K01834	PGAM, gpmA	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+K01895	ACSS1_2, acs	acetyl-CoA synthetase
+K02203	thrH	phosphoserine / homoserine phosphotransferase
+K02446	glpX	fructose-1,6-bisphosphatase II
+K03388	hdrA2	heterodisulfide reductase subunit A2
+K03389	hdrB2	heterodisulfide reductase subunit B2
+K03390	hdrC2	heterodisulfide reductase subunit C2
+K03396	gfa	S-(hydroxymethyl)glutathione synthase
+K03421	mcrC	methyl-coenzyme M reductase subunit C
+K03422	mcrD	methyl-coenzyme M reductase subunit D
+K03532	torC	trimethylamine-N-oxide reductase (cytochrome c), cytochrome c-type subunit TorC
+K03533	torD	TorA specific chaperone
+K03841	FBP, fbp	fructose-1,6-bisphosphatase I
+K04041	fbp3	fructose-1,6-bisphosphatase III
+K04480	mtaB	methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase
+K05299	fdhA	formate dehydrogenase (NADP+) alpha subunit
+K05884	comC	L-2-hydroxycarboxylate dehydrogenase (NAD+)
+K05979	comB	2-phosphosulfolactate phosphatase
+K06034	comD	sulfopyruvate decarboxylase subunit alpha
+K06914	mfnD	tyramine---L-glutamate ligase
+K07072	mfnF	(4-(4-[2-(gamma-L-glutamylamino)ethyl]phenoxymethyl)furan-2-yl)methanamine synthase
+K07144	mfnE	5-(aminomethyl)-3-furanmethanol phosphate kinase
+K07811	torA	trimethylamine-N-oxide reductase (cytochrome c)
+K07812	torZ	trimethylamine-N-oxide reductase (cytochrome c)
+K07821	torY	trimethylamine-N-oxide reductase (cytochrome c), cytochrome c-type subunit TorY
+K08093	hxlA	3-hexulose-6-phosphate synthase
+K08094	hxlB	6-phospho-3-hexuloisomerase
+K08097	comA	phosphosulfolactate synthase
+K08264	hdrD	heterodisulfide reductase subunit D
+K08265	hdrE	heterodisulfide reductase subunit E
+K08685	qhpA	quinohemoprotein amine dehydrogenase
+K08691	mcl	malyl-CoA/(S)-citramalyl-CoA lyase
+K08692	mtkB	malate-CoA ligase subunit alpha
+K09733	mfnB	(5-formylfuran-3-yl)methyl phosphate synthase
+K10713	fae	5,6,7,8-tetrahydromethanopterin hydro-lyase
+K10714	mtdB	methylene-tetrahydromethanopterin dehydrogenase
+K10944	pmoA-amoA	methane/ammonia monooxygenase subunit A
+K10945	pmoB-amoB	methane/ammonia monooxygenase subunit B
+K10946	pmoC-amoC	methane/ammonia monooxygenase subunit C
+K10977	aksA	methanogen homocitrate synthase
+K10978	aksF	methanogen homoisocitrate dehydrogenase
+K11212	cofD	LPPG:FO 2-phospho-L-lactate transferase
+K11260	fwdG	4Fe-4S ferredoxin
+K11261	fwdE, fmdE	formylmethanofuran dehydrogenase subunit E
+K11529	gck, gckA, GLYCTK	glycerate 2-kinase
+K11532	glpX-SEBP	fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase
+K11645	fbaB	fructose-bisphosphate aldolase, class I
+K11779	fbiC	FO synthase
+K11780	cofG	7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase
+K11781	cofH	5-amino-6-(D-ribitylamino)uracil---L-tyrosine 4-hydroxyphenyl transferase
+K12234	cofE, fbiB	coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase
+K13039	comE	sulfopyruvate decarboxylase subunit beta
+K13788	pta	phosphate acetyltransferase
+K13812	fae-hps	bifunctional enzyme Fae/Hps
+K13831	hps-phi	3-hexulose-6-phosphate synthase / 6-phospho-3-hexuloisomerase
+K13942	hmd	5,10-methenyltetrahydromethanopterin hydrogenase
+K14028	mdh1, mxaF	methanol dehydrogenase (cytochrome c) subunit 1
+K14029	mdh2, mxaI	methanol dehydrogenase (cytochrome c) subunit 2
+K14067	mtkA	malate-CoA ligase subunit beta
+K14080	mtaA	[methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase
+K14081	mtaC	methanol corrinoid protein
+K14082	mtbA	[methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase
+K14083	mttB	trimethylamine---corrinoid protein Co-methyltransferase
+K14084	mttC	trimethylamine corrinoid protein
+K14126	mvhA, vhuA, vhcA	F420-non-reducing hydrogenase large subunit
+K14127	mvhD, vhuD, vhcD	F420-non-reducing hydrogenase iron-sulfur subunit
+K14128	mvhG, vhuG, vhcG	F420-non-reducing hydrogenase small subunit
+K14940	cofF	gamma-F420-2:alpha-L-glutamate ligase
+K14941	cofC, fbiD	2-phospho-L-lactate/phosphoenolpyruvate guanylyltransferase
+K15022	fdhB	formate dehydrogenase (NADP+) beta subunit
+K15228	mauA	methylamine dehydrogenase light chain
+K15229	mauB	methylamine dehydrogenase heavy chain
+K15633	gpmI	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+K15634	gpmB	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+K15635	apgM	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+K16157	mmoX	methane monooxygenase component A alpha chain
+K16158	mmoY	methane monooxygenase component A beta chain
+K16159	mmoZ	methane monooxygenase component A gamma chain
+K16160	mmoB	methane monooxygenase regulatory protein B
+K16161	mmoC	methane monooxygenase component C
+K16162	mmoD	methane monooxygenase component D
+K16176	mtmB	methylamine---corrinoid protein Co-methyltransferase
+K16177	mtmC	monomethylamine corrinoid protein
+K16178	mtbB	dimethylamine---corrinoid protein Co-methyltransferase
+K16179	mtbC	dimethylamine corrinoid protein
+K16254	mxaJ	mxaJ protein
+K16255	mxaG	cytochrome c-L
+K16256	mxaA	mxaA protein
+K16257	mxaC	mxaC protein
+K16258	mxaK	mxaK protein
+K16259	mxaL	mxaL protein
+K16260	mxaD	mxaD protein
+K16305	K16305	fructose-bisphosphate aldolase / 6-deoxy-5-ketofructose 1-phosphate synthase
+K16306	K16306	fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+K16370	pfkB	6-phosphofructokinase 2
+K16792	aksD	methanogen homoaconitase large subunit
+K16793	aksE	methanogen homoaconitase small subunit
+K17066	MOX	alcohol oxidase
+K17067	mdo	formaldehyde dismutase / methanol dehydrogenase
+K17068	fdm	formaldehyde dismutase
+K17100	DAS	dihydroxyacetone synthase
+K18277	tmm	trimethylamine monooxygenase
+K18933	mfnA, adc	tyrosine decarboxylase / aspartate 1-decarboxylase
+K19793	mfnC	(5-formylfuran-3-yl)methyl phosphate transaminase
+K21071	pfk, pfp	ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase
+K22081	mgsA	methylamine---glutamate N-methyltransferase subunit A
+K22082	mgsB	methylamine---glutamate N-methyltransferase subunit B
+K22083	mgsC	methylamine---glutamate N-methyltransferase subunit C
+K22084	mgdA	methylglutamate dehydrogenase subunit A
+K22085	mgdB	methylglutamate dehydrogenase subunit B
+K22086	mgdC	methylglutamate dehydrogenase subunit C
+K22087	mgdD	methylglutamate dehydrogenase subunit D
+K22305	psp	phosphoserine phosphatase
+K22480	hdrA1	heterodisulfide reductase subunit A1
+K22481	hdrB1	heterodisulfide reductase subunit B1
+K22482	hdrC1	heterodisulfide reductase subunit C1
+K22515	fdwB	formate dehydrogenase beta subunit
+K22516	fdhA	formate dehydrogenase (coenzyme F420) alpha subunit
+K23995	xoxF	lanthanide-dependent methanol dehydrogenase
+K24182	PFK9	6-phosphofructokinase
+K24393	comDE	sulfopyruvate decarboxylase

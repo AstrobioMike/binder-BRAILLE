@@ -1,11 +1,5 @@
-## goes along with our work on OSF here: https://osf.io/uhk48/wiki/home/
-## write Mike on slack if you don't have access to that
 
-# not meant to be run in this binder, large input files are missing
-# this is here to serve as reference if needed, as this is what generated the RData
-# object we read in in this binder
-
-load("BRAILLE-mg.RData")
+# load("BRAILLE-mg.RData")
 
 library(tidyverse)
 library(vegan)
@@ -46,6 +40,9 @@ YEL_gradient <- colorRampPalette(c(YEL_lightest_col, YEL_darkest_col))(5)
 
 # helper function to generate KO summary table:
 make_KO_summary_tab <- function(target_KOs) {
+
+    # removing "Not annotated" if provided, will be added as needed below
+    target_KOs <- target_KOs[target_KOs != "Not annotated"]
 
     # the kegg API limits individual requests to 10, so breaking the total we want into blocks of 10
     list_of_pathway_KO_blocks <- split(target_KOs, ceiling(seq_along(target_KOs)/10))
@@ -162,7 +159,7 @@ make_KO_summary_tab <- function(target_KOs) {
 }
 
 # helper function to build table of how many of each target KO term were annotated from each sample and table of normalized coverage
-parse_samples_by_target_KO_tab <- function( samples, target_KO_tab, supposed_to_be_all_KOs = FALSE ) {
+parse_samples_by_target_KO_tab <- function( samples, target_KO_tab ) {
 
     target_KOs <- target_KO_tab$KO_ID
     # making empty tables to fill
@@ -228,12 +225,20 @@ parse_samples_by_target_KO_tab <- function( samples, target_KO_tab, supposed_to_
 }
 
 # helper function for plotting cov and num unique genes of single KO
-plot_single_KO <- function( KO_term, target_KO_df_list, coverage_round_acc = 1000, gene_copy_round_acc = 10) {
+plot_single_KO <- function( KO_term, target_KO_df_list = all_our_KO_gene_df_list, coverage_round_acc = 100, gene_copy_round_acc = 10) {
 
-    # making sure it is not 0 across all samples
-    cov_sum <- target_KO_df_list[["cov"]] %>% filter(KO_ID == KO_term) %>% select(2:11) %>% sum()
-    if ( cov_sum == 0 ) {
-        stop(paste0(KO_term, " wasn't detected."))
+    # making sure it present/was assembled/annotated
+    if ( ! KO_term %in% ( target_KO_df_list[['cov']] %>% pull(KO_ID) ) ) {
+
+        cat("\n   ", KO_term, "was not detected.\n\n")
+
+        # couldn't figure out a better way to just report this and not give an error while exiting
+        stop_no_error <- function() {
+            opt <- options(show.error.messages = FALSE)
+            on.exit(options(opt))
+            stop()
+        }
+        stop_no_error()
     }
 
     N_KO_gene_df_list[["cov"]] %>% filter(KO_ID == "K02588") %>% select(2:11) %>% sum()
@@ -319,13 +324,14 @@ plot_overview_of_KOs_with_highest_coverages <- function( target_KO_df_list, numb
     # initializing plotting list
     curr_plots <- vector("list", length(target_KOs))
 
+
     # iterating through generating each
     for ( num in 1:length(target_KOs) ) {
-        my_plots[[num]] <- plot_single_for_plotting_multiple_KOs( target_KOs[num], target_KO_df_list)
+        curr_plots[[num]] <- plot_single_for_plotting_multiple_KOs( target_KOs[num], target_KO_df_list)
     }
 
     # making combined plot
-    my_plot <- ggarrange(plotlist=my_plots, common.legend=TRUE, legend = "bottom")
+    my_plot <- ggarrange(plotlist=curr_plots, common.legend=TRUE, legend = "bottom")
 
     my_plot <- annotate_figure(my_plot, top = text_grob(title, face="bold", size=14), left = text_grob("Norm. Cov. (CPM)", face="bold", size=11, rot=90))
 
@@ -435,19 +441,50 @@ plot_and_summarize_coverage_CoVs <- function( target_KO_df_list, plot_title="", 
 # This function will pull out the info for any given KO once we've made our overview of all genes tables, and add the link to the KO page
 get_KO_info <- function( target_KO, KO_KEGG_tab = all_our_KOs_KEGG_tab ) {
 
-    link <- paste0("https://www.genome.jp/dbget-bin/www_bget?ko:", target_KO)
-    # making sure it's in our table
-    if ( ! target_KO %in% (KO_KEGG_tab %>% pull(KO_ID)) ) {
-        stop(paste0("It seems ", target_KO, " wasn't recovered from our samples (or isn't a real KO term).\n  You can try this link if you're not sure and curious:\n      ", link))
+    # bulding link
+    curr_KO_link <- paste0("https://www.genome.jp/dbget-bin/www_bget?ko:", target_KO)
+
+    # getting info on KEGG term
+    try(curr_info <- keggGet(target_KO), silent = TRUE)
+
+    # checking if it was found at KEGG
+    if ( ! exists("curr_info") ) {
+
+        cat(paste0("\n  It seems '", target_KO, "' wasn't found at KEGG. It may have been removed, or may have never existed.\n\n  This should be the link if it were there if you wanna take a look:\n\n      ", curr_KO_link, "\n\n"))
+        # couldn't figure out a better way to just report this and not give an error while exiting
+        stop_no_error <- function() {
+            opt <- options(show.error.messages = FALSE)
+            on.exit(options(opt))
+            stop()
+        }
+
+        stop_no_error()
     }
 
-    out <- KO_KEGG_tab %>% filter(KO_ID == target_KO)
-    out[out == ""] <- NA
-    out$KO_link <- link
-    print(out)
+    # parsing some info
+    if ( length(curr_info[[1]]$ENTRY) > 0 ) { curr_KO_ID <- curr_info[[1]]$ENTRY %>% as.vector } else { curr_KO_ID <- NA }
+    if ( length(curr_info[[1]]$NAME) > 0 ) { curr_KO_name <- curr_info[[1]]$NAME %>% as.vector } else { curr_KO_name <- NA }
+    if ( length(curr_info[[1]]$DEFINITION) > 0 ) { curr_KO_def <- curr_info[[1]]$DEFINITION %>% as.vector } else { curr_KO_def <- NA }
+
+    # seeing if it's in our table
+    if ( target_KO %in% (KO_KEGG_tab %>% pull(KO_ID)) ) {
+
+      curr_in_data <- "Yes"
+
+    } else {
+
+      curr_in_data <- "No"
+
+    }
+
+    # reporting info
+    cat("\n  KO ID          :  ", curr_KO_ID, "\n")
+    cat("  KO name        :  ", curr_KO_name, "\n")
+    cat("  KO definition  :  ", curr_KO_def, "\n")
+    cat("  KO link        :  ", curr_KO_link, "\n")
+    cat("  In our data?   :  ", curr_in_data, "\n\n")
 
 }
-
 
 #### beta-stuff ####
 # starting with hierarchical clustering
@@ -520,7 +557,7 @@ all_our_KOs <- KO_tab %>% pull(KO_ID) %>% as.vector()
 all_our_KOs_KEGG_tab <- make_KO_summary_tab(all_our_KOs)
 
 # adding "Not annotated" to the KO tab so our next function pulls that info too
-all_our_KOs_KEGG_tab <- rbind(all_our_KOs_KEGG_tab, rep("Not annotated", 5))
+all_our_KOs_KEGG_tab <- rbind(all_our_KOs_KEGG_tab, rep("Not annotated", 7))
 
 # took 2 hours
 all_our_KO_gene_df_list <- parse_samples_by_target_KO_tab(all_samples, all_our_KOs_KEGG_tab)
@@ -540,10 +577,6 @@ plot_and_summarize_coverage_CoVs(all_our_KO_gene_df_list, plot_title = "Mean cov
 plot_single_KO("K12546", all_our_KO_gene_df_list, coverage_round_acc=100)
 
 plot_overview_of_KOs_with_highest_coverages(all_our_KO_gene_df_list)
-
-# And any given KO that catches our eye we can always get info on specifically with this helper function:
-get_KO_info("K00573")
-
 
 #### nitrogen metabolism ####
 

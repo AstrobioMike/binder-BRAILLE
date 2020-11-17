@@ -1,0 +1,30 @@
+KO_ID	KO_name	KO_def
+K00566	mnmA, trmU	tRNA-uridine 2-sulfurtransferase
+K01011	TST, MPST, sseA	thiosulfate/3-mercaptopyruvate sulfurtransferase
+K03148	thiF	sulfur carrier protein ThiS adenylyltransferase
+K03151	thiI	tRNA uracil 4-sulfurtransferase
+K03154	thiS	sulfur carrier protein
+K03635	MOCS2B, moaE	molybdopterin synthase catalytic subunit
+K03636	moaD, cysO	sulfur-carrier protein
+K03637	moaC, CNX3	cyclic pyranopterin monophosphate synthase
+K03638	moaB	molybdopterin adenylyltransferase
+K03639	moaA, CNX2	GTP 3',8-cyclase
+K03831	mogA	molybdopterin adenylyltransferase
+K04085	tusA, sirA	tRNA 2-thiouridine synthesizing protein A
+K04487	iscS, NFS1	cysteine desulfurase
+K07235	tusD, dsrE	tRNA 2-thiouridine synthesizing protein D
+K07236	tusC, dsrF	tRNA 2-thiouridine synthesizing protein C
+K07237	tusB, dsrH	tRNA 2-thiouridine synthesizing protein B
+K11179	tusE, dsrC	tRNA 2-thiouridine synthesizing protein E
+K11996	MOCS3, UBA4	adenylyltransferase and sulfurtransferase
+K12161	URM1	ubiquitin related modifier 1
+K14168	CTU1, NCS6	cytoplasmic tRNA 2-thiolation protein 1
+K14169	CTU2, NCS2	cytoplasmic tRNA 2-thiolation protein 2
+K14171	AHP1	alkyl hydroperoxide reductase 1
+K21028	ynjE	molybdopterin synthase sulfurtransferase
+K21029	moeB	molybdopterin-synthase adenylyltransferase
+K21140	mec	[CysO sulfur-carrier protein]-S-L-cysteine hydrolase
+K21142	moaX	MoaE-MoaD fusion protein
+K21147	moeZR, moeBR	sulfur-carrier protein adenylyltransferase/sulfurtransferase
+K21148	cysM	[CysO sulfur-carrier protein]-thiocarboxylate-dependent cysteine synthase
+K21232	MOCS2A, CNXG	molybdopterin synthase sulfur carrier subunit

@@ -1,7 +1,11 @@
 ## goes along with our work on OSF here: https://osf.io/uhk48/wiki/home/
-## write Mike on slack if you don't have access to that
+## write Mike on slack if you don't have and want access to that (not needed here)
+## an intro to doing stuff here can be found here: https://hackmd.io/@astrobiomike/BRAILLE-mg-exploring
 
-# these all need to be loaded first
+# this loads the data in R
+load("BRAILLE-mg.RData")
+
+# these are all packages of code we need to load also
 library(tidyverse)
 library(vegan)
 library(dendextend)
@@ -11,8 +15,6 @@ library(ggpubr)
 library(KEGGREST)
 library(stringi)
 
-# this loads the data in R
-load("BRAILLE-mg.RData")
 
 # currently can plot any KO term by metabolism group
 # ones here now are:

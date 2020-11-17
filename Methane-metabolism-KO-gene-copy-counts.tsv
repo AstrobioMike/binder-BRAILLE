@@ -1,0 +1,191 @@
+KO_ID	VAL_A09	VAL_B04	VAL_C05	VAL_D01	VAL_E02	YEL_A01	YEL_B04	YEL_C01	YEL_D03	YEL_E01	sum	mean	stdev	CoV	KO_name	KO_def
+K00018	15	18	22	13	31	32	30	12	23	16	212	21.2	7.61285462593077	0.359096916317489	hprA	glycerate dehydrogenase
+K00024	163	170	163	182	184	187	206	196	187	193	1831	183.1	14.1456707158056	0.0772565303976275	mdh	malate dehydrogenase
+K00058	221	222	213	231	172	229	237	262	258	217	2262	226.2	25.1254629586977	0.111076317235622	serA, PHGDH	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase
+K00093	99	138	116	173	144	166	164	142	139	172	1453	145.3	24.4178896166997	0.168051545882311	mdh	methanol dehydrogenase
+K00121	27	26	50	27	45	45	59	19	31	26	355	35.5	13.1677214767358	0.370921731739036	frmA, ADH5, adhC	S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase
+K00122	35	22	37	27	28	56	47	43	43	44	382	38.2	10.4221985311268	0.272832422280807	FDH	formate dehydrogenase
+K00123	51	67	80	48	81	65	81	33	47	36	589	58.9	18.3874957511892	0.312181591701005	fdoG, fdhF, fdwA	formate dehydrogenase major subunit
+K00124	69	83	82	145	94	72	78	117	90	68	898	89.8	24.2111085615215	0.269611453914493	fdoH, fdsB	formate dehydrogenase iron-sulfur subunit
+K00125	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	fdhB	formate dehydrogenase (coenzyme F420) beta subunit
+K00126	11	12	29	13	42	26	41	7	23	16	220	22	12.4275679215382	0.564889450979008	fdsD	formate dehydrogenase subunit delta
+K00127	51	80	61	34	63	69	55	46	78	54	591	59.1	14.2240016247968	0.240676846443262	fdoI, fdsG	formate dehydrogenase subunit gamma
+K00148	11	8	19	78	49	12	41	42	18	44	322	32.2	22.389481657441	0.695325517311834	fdhA	glutathione-independent formaldehyde dehydrogenase
+K00169	51	36	24	8	8	18	1	8	23	9	186	18.6	15.421485733295	0.829112136198658	porA	pyruvate ferredoxin oxidoreductase alpha subunit
+K00170	27	19	9	5	1	10	0	7	20	0	98	9.8	9.34285228872259	0.953352274359448	porB	pyruvate ferredoxin oxidoreductase beta subunit
+K00171	0	0	0	2	0	0	0	0	0	0	2	0.2	0.632455532033676	3.16227766016838	porD	pyruvate ferredoxin oxidoreductase delta subunit
+K00172	19	13	12	3	6	8	0	4	10	8	83	8.3	5.51865523072021	0.6648982205687	porC, porG	pyruvate ferredoxin oxidoreductase gamma subunit
+K00189	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	vorG, porG	2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+K00192	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	cdhA	anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit alpha
+K00193	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	cdhC	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit beta
+K00194	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	cdhD, acsD	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta
+K00195	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	cdhB	anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit epsilon
+K00196	15	22	3	0	7	8	12	1	14	7	89	8.9	6.90330033792211	0.775651723362035	cooF	anaerobic carbon-monoxide dehydrogenase iron sulfur subunit
+K00197	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	cdhE, acsC	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma
+K00198	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	cooS, acsA	anaerobic carbon-monoxide dehydrogenase catalytic subunit
+K00200	23	45	30	26	37	28	47	21	40	41	338	33.8	9.36660735449786	0.27711856078396	fwdA, fmdA	formylmethanofuran dehydrogenase subunit A
+K00201	24	45	21	22	32	39	42	19	42	29	315	31.5	9.87983355685262	0.313645509741353	fwdB, fmdB	formylmethanofuran dehydrogenase subunit B
+K00202	23	46	26	29	34	37	45	22	47	38	347	34.7	9.47569991551489	0.273074925519161	fwdC, fmdC	formylmethanofuran dehydrogenase subunit C
+K00203	0	0	0	0	0	0	0	0	1	0	1	0.1	0.316227766016838	3.16227766016838	fwdD, fmdD	formylmethanofuran dehydrogenase subunit D
+K00204	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	fwdH	4Fe-4S ferredoxin
+K00205	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	fwdF, fmdF	4Fe-4S ferredoxin
+K00300	13	23	13	15	17	15	19	6	28	17	166	16.6	5.96657355607052	0.359432141931959	mtdA	methylenetetrahydrofolate/methylenetetrahydromethanopterin dehydrogenase (NADP+)
+K00317	8	7	4	16	15	28	6	10	4	11	109	10.9	7.29459465022637	0.669228866993244	dmd-tmd	dimethylamine/trimethylamine dehydrogenase
+K00319	0	1	0	0	0	0	0	0	0	0	1	0.1	0.316227766016838	3.16227766016838	mtd	methylenetetrahydromethanopterin dehydrogenase
+K00320	260	322	312	239	165	174	185	370	273	261	2561	256.1	67.6205918670078	0.264039796435017	mer	5,10-methylenetetrahydromethanopterin reductase
+K00399	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mcrA	methyl-coenzyme M reductase alpha subunit
+K00400	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	K00400	methyl coenzyme M reductase system, component A2
+K00401	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mcrB	methyl-coenzyme M reductase beta subunit
+K00402	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mcrG	methyl-coenzyme M reductase gamma subunit
+K00440	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	frhA	coenzyme F420 hydrogenase subunit alpha
+K00441	15	13	18	18	11	28	36	68	35	37	279	27.9	17.2462556322621	0.618145363163517	frhB	coenzyme F420 hydrogenase subunit beta
+K00442	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	frhD	coenzyme F420 hydrogenase subunit delta
+K00443	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	frhG	coenzyme F420 hydrogenase subunit gamma
+K00577	10	8	3	5	2	2	2	3	7	4	46	4.6	2.83627298482435	0.616581083657468	mtrA	tetrahydromethanopterin S-methyltransferase subunit A
+K00578	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtrB	tetrahydromethanopterin S-methyltransferase subunit B
+K00579	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtrC	tetrahydromethanopterin S-methyltransferase subunit C
+K00580	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtrD	tetrahydromethanopterin S-methyltransferase subunit D
+K00581	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtrE	tetrahydromethanopterin S-methyltransferase subunit E
+K00582	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtrF	tetrahydromethanopterin S-methyltransferase subunit F
+K00583	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtrG	tetrahydromethanopterin S-methyltransferase subunit G
+K00584	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtrH	tetrahydromethanopterin S-methyltransferase subunit H
+K00600	225	247	214	251	225	259	303	308	285	288	2605	260.5	33.9550356272003	0.130345626208063	glyA, SHMT	glycine hydroxymethyltransferase
+K00625	18	17	10	7	13	18	19	3	27	10	142	14.2	6.97296366132954	0.491053778966869	E2.3.1.8, pta	phosphate acetyltransferase
+K00672	18	44	22	32	33	34	55	27	46	54	365	36.5	12.8084173712272	0.350915544417184	ftr	formylmethanofuran--tetrahydromethanopterin N-formyltransferase
+K00830	70	85	61	58	52	61	74	45	81	58	645	64.5	12.7301043026189	0.197365958180138	AGXT	alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase
+K00831	105	92	129	108	164	132	201	147	125	169	1372	137.2	33.4524538213068	0.24382254971798	serC, PSAT1	phosphoserine aminotransferase
+K00850	20	22	8	8	19	14	6	4	22	3	126	12.6	7.64780287983999	0.606968482526984	pfkA, PFK	6-phosphofructokinase 1
+K00863	0	0	3	3	0	0	0	0	0	1	7	0.7	1.25166555703457	1.78809365290653	DAK, TKFC	triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+K00918	0	0	0	0	0	0	1	2	1	0	4	0.4	0.699205898780101	1.74801474695025	pfkC	ADP-dependent phosphofructokinase/glucokinase
+K00925	56	59	64	49	59	79	52	33	50	36	537	53.7	13.2836574615411	0.247367922933726	ackA	acetate kinase
+K01007	40	50	42	22	35	46	63	27	43	30	398	39.8	11.9981480052363	0.301461005156691	pps, ppsA	pyruvate, water dikinase
+K01070	12	8	31	15	37	35	56	19	5	34	252	25.2	16.0402272081442	0.636516952704134	frmB, ESD, fghA	S-formylglutathione hydrolase
+K01079	44	45	76	74	86	58	93	70	47	83	676	67.6	18.0197422598413	0.266564234613037	serB, PSPH	phosphoserine phosphatase
+K01086	4	6	4	5	7	7	7	3	5	5	53	5.3	1.41813649241218	0.267572923096637	fbp-SEBP	fructose-1,6-bisphosphatase I / sedoheptulose-1,7-bisphosphatase
+K01499	16	34	24	26	33	31	40	22	36	34	296	29.6	7.36659125149934	0.248871326064167	mch	methenyltetrahydromethanopterin cyclohydrolase
+K01595	64	72	96	102	122	116	135	127	109	110	1053	105.3	22.8378341062953	0.216883514779633	ppc	phosphoenolpyruvate carboxylase
+K01622	16	22	4	6	1	5	3	6	17	4	84	8.4	7.16782936304833	0.853313019410515	K01622	fructose 1,6-bisphosphate aldolase/phosphatase
+K01623	75	63	110	69	77	103	135	122	76	111	941	94.1	25.0574894548073	0.266285754036209	ALDO	fructose-bisphosphate aldolase, class I
+K01624	31	37	64	99	105	57	104	88	48	89	722	72.2	28.2008668109491	0.390593723143339	FBA, fbaA	fructose-bisphosphate aldolase, class II
+K01689	243	276	238	265	241	278	314	295	327	288	2765	276.5	30.6059180914774	0.110690481343499	ENO, eno	enolase
+K01834	96	101	110	70	121	108	145	99	114	129	1093	109.3	20.330874168231	0.186009827705682	PGAM, gpmA	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+K01895	144	160	159	178	156	168	187	175	171	168	1666	166.6	12.3125951772971	0.0739051331170295	ACSS1_2, acs	acetyl-CoA synthetase
+K02203	21	28	6	4	6	28	13	9	23	9	147	14.7	9.40508136889605	0.639801453666398	thrH	phosphoserine / homoserine phosphotransferase
+K02446	19	19	39	78	44	45	57	123	39	99	562	56.2	33.9993463989465	0.60497057649371	glpX	fructose-1,6-bisphosphatase II
+K03388	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	hdrA2	heterodisulfide reductase subunit A2
+K03389	1	1	0	2	0	1	0	0	2	0	7	0.7	0.823272602348565	1.17610371764081	hdrB2	heterodisulfide reductase subunit B2
+K03390	0	1	0	0	0	1	0	0	1	0	3	0.3	0.483045891539648	1.61015297179883	hdrC2	heterodisulfide reductase subunit C2
+K03396	22	22	25	13	18	38	21	6	12	7	184	18.4	9.51256479025972	0.516987216861941	gfa	S-(hydroxymethyl)glutathione synthase
+K03421	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mcrC	methyl-coenzyme M reductase subunit C
+K03422	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mcrD	methyl-coenzyme M reductase subunit D
+K03532	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	torC	trimethylamine-N-oxide reductase (cytochrome c), cytochrome c-type subunit TorC
+K03533	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	torD	TorA specific chaperone
+K03841	76	80	63	30	58	76	60	27	91	36	597	59.7	22.2363566160366	0.372468285025739	FBP, fbp	fructose-1,6-bisphosphatase I
+K04041	0	3	1	0	5	4	7	2	4	1	27	2.7	2.31180545125329	0.856224241204923	fbp3	fructose-1,6-bisphosphatase III
+K04480	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtaB	methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase
+K05299	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	fdhA	formate dehydrogenase (NADP+) alpha subunit
+K05884	21	17	9	16	9	15	6	10	16	6	125	12.5	5.1478150704935	0.41182520563948	comC	L-2-hydroxycarboxylate dehydrogenase (NAD+)
+K05979	56	66	33	89	56	67	57	46	83	53	606	60.6	16.5542877963519	0.2731730659464	comB	2-phosphosulfolactate phosphatase
+K06034	39	47	50	44	15	38	15	25	52	16	341	34.1	14.9699699398496	0.439002051021982	comD	sulfopyruvate decarboxylase subunit alpha
+K06914	11	28	6	12	15	19	22	9	20	16	158	15.8	6.62989860824097	0.419613835964618	mfnD	tyramine---L-glutamate ligase
+K07072	11	25	23	21	34	29	41	16	32	30	262	26.2	8.8794394217453	0.338909901593332	mfnF	(4-(4-[2-(gamma-L-glutamylamino)ethyl]phenoxymethyl)furan-2-yl)methanamine synthase
+K07144	15	27	22	24	36	21	46	19	32	40	282	28.2	9.99777753080931	0.354531118113805	mfnE	5-(aminomethyl)-3-furanmethanol phosphate kinase
+K07811	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	torA	trimethylamine-N-oxide reductase (cytochrome c)
+K07812	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	torZ	trimethylamine-N-oxide reductase (cytochrome c)
+K07821	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	torY	trimethylamine-N-oxide reductase (cytochrome c), cytochrome c-type subunit TorY
+K08093	6	12	2	7	8	9	4	2	31	2	83	8.3	8.65447860936752	1.04270826618886	hxlA	3-hexulose-6-phosphate synthase
+K08094	5	9	3	9	3	8	3	3	10	3	56	5.6	3.02581485810939	0.540324081805248	hxlB	6-phospho-3-hexuloisomerase
+K08097	29	29	39	81	63	34	54	53	45	55	482	48.2	16.4370854404842	0.341018370134527	comA	phosphosulfolactate synthase
+K08264	7	5	9	2	7	9	9	18	5	10	81	8.1	4.25440947723653	0.525235737930436	hdrD	heterodisulfide reductase subunit D
+K08265	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	hdrE	heterodisulfide reductase subunit E
+K08685	10	10	3	2	3	5	1	0	17	1	52	5.2	5.45282801244761	1.04862077162454	qhpA	quinohemoprotein amine dehydrogenase
+K08691	26	38	63	63	73	49	65	59	39	55	530	53	14.7196014438797	0.277728329129806	mcl	malyl-CoA/(S)-citramalyl-CoA lyase
+K08692	11	14	21	16	29	24	25	10	20	18	188	18.8	6.19677335393187	0.329615603932546	mtkB	malate-CoA ligase subunit alpha
+K09733	14	26	26	21	30	19	43	17	35	28	259	25.9	8.74896819313252	0.337797999734846	mfnB	(5-formylfuran-3-yl)methyl phosphate synthase
+K10713	26	45	25	28	47	45	54	19	41	41	371	37.1	11.6375827959819	0.313681476980644	fae	5,6,7,8-tetrahydromethanopterin hydro-lyase
+K10714	9	13	19	11	24	22	37	7	27	22	191	19.1	9.27900856772964	0.48581196689684	mtdB	methylene-tetrahydromethanopterin dehydrogenase
+K10944	20	35	18	7	7	22	10	3	26	10	158	15.8	10.1083024181995	0.639765975835411	pmoA-amoA	methane/ammonia monooxygenase subunit A
+K10945	21	30	21	6	4	20	8	5	43	10	168	16.8	12.6912043032435	0.755428827574019	pmoB-amoB	methane/ammonia monooxygenase subunit B
+K10946	17	32	26	9	7	16	11	2	35	12	167	16.7	10.9549582888805	0.655985526280268	pmoC-amoC	methane/ammonia monooxygenase subunit C
+K10977	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	aksA	methanogen homocitrate synthase
+K10978	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	aksF	methanogen homoisocitrate dehydrogenase
+K11212	61	68	70	140	86	77	118	188	100	148	1056	105.6	41.9369897716933	0.397130584959217	cofD	LPPG:FO 2-phospho-L-lactate transferase
+K11260	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	fwdG	4Fe-4S ferredoxin
+K11261	20	22	9	18	15	15	21	45	37	38	240	24	11.8227652339788	0.49261521808245	fwdE, fmdE	formylmethanofuran dehydrogenase subunit E
+K11529	108	108	96	81	84	87	99	64	143	85	955	95.5	21.3398427568923	0.223453850857511	gck, gckA, GLYCTK	glycerate 2-kinase
+K11532	16	6	36	12	22	21	26	6	9	15	169	16.9	9.53880961592635	0.564426604492683	glpX-SEBP	fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase
+K11645	69	75	35	34	58	86	67	43	100	53	620	62	21.6897313133299	0.34983437602145	fbaB	fructose-bisphosphate aldolase, class I
+K11779	10	9	31	32	30	27	34	51	19	31	274	27.4	12.3216160556244	0.44969401662863	fbiC	FO synthase
+K11780	21	34	16	6	2	15	2	4	31	6	137	13.7	11.8232351278696	0.863009863348144	cofG	7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase
+K11781	21	28	10	5	2	11	2	3	26	5	113	11.3	10.0669977870488	0.890884759915819	cofH	5-amino-6-(D-ribitylamino)uracil---L-tyrosine 4-hydroxyphenyl transferase
+K12234	79	82	68	99	58	77	100	175	105	130	973	97.3	34.2541157300031	0.352046410380299	cofE, fbiB	coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase
+K13039	1	0	0	0	0	0	0	0	0	0	1	0.1	0.316227766016838	3.16227766016838	comE	sulfopyruvate decarboxylase subunit beta
+K13788	0	1	0	4	1	0	0	2	0	6	14	1.4	2.06559111797729	1.47542222712663	pta	phosphate acetyltransferase
+K13812	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	fae-hps	bifunctional enzyme Fae/Hps
+K13831	1	7	2	0	0	2	0	0	2	0	14	1.4	2.17050941281329	1.55036386629521	hps-phi	3-hexulose-6-phosphate synthase / 6-phospho-3-hexuloisomerase
+K13942	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	hmd	5,10-methenyltetrahydromethanopterin hydrogenase
+K14028	0	0	0	0	0	1	4	1	0	1	7	0.7	1.25166555703457	1.78809365290653	mdh1, mxaF	methanol dehydrogenase (cytochrome c) subunit 1
+K14029	0	0	4	0	0	2	3	1	0	2	12	1.2	1.47572957474524	1.22977464562104	mdh2, mxaI	methanol dehydrogenase (cytochrome c) subunit 2
+K14067	8	20	16	22	26	18	22	10	15	13	170	17	5.69600249687835	0.335058970404609	mtkA	malate-CoA ligase subunit beta
+K14080	0	4	1	0	0	1	0	1	4	1	12	1.2	1.54919333848297	1.29099444873581	mtaA	[methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase
+K14081	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtaC	methanol corrinoid protein
+K14082	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtbA	[methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase
+K14083	55	54	32	61	23	105	66	43	83	46	568	56.8	24.0083318870762	0.422681899420356	mttB	trimethylamine---corrinoid protein Co-methyltransferase
+K14084	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mttC	trimethylamine corrinoid protein
+K14126	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mvhA, vhuA, vhcA	F420-non-reducing hydrogenase large subunit
+K14127	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mvhD, vhuD, vhcD	F420-non-reducing hydrogenase iron-sulfur subunit
+K14128	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mvhG, vhuG, vhcG	F420-non-reducing hydrogenase small subunit
+K14940	0	1	1	0	0	4	1	0	0	0	7	0.7	1.25166555703457	1.78809365290653	cofF	gamma-F420-2:alpha-L-glutamate ligase
+K14941	54	58	64	105	60	69	82	165	97	128	882	88.2	36.0733819995976	0.408995260766412	cofC, fbiD	2-phospho-L-lactate/phosphoenolpyruvate guanylyltransferase
+K15022	23	17	33	15	22	35	37	13	18	7	220	22	10.0664459136943	0.457565723349742	fdhB	formate dehydrogenase (NADP+) beta subunit
+K15228	6	10	5	3	1	13	7	5	13	3	66	6.6	4.16866618689693	0.631616088923777	mauA	methylamine dehydrogenase light chain
+K15229	5	9	4	3	1	17	9	2	9	1	60	6	5.03322295684717	0.838870492807861	mauB	methylamine dehydrogenase heavy chain
+K15633	79	84	77	128	91	87	121	128	110	108	1013	101.3	20.0889687805688	0.198311636530787	gpmI	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+K15634	26	30	6	9	21	20	29	7	21	13	182	18.2	8.95420447486977	0.491989256860976	gpmB	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+K15635	77	93	45	54	45	98	46	97	113	66	734	73.4	25.6523769745504	0.349487424721395	apgM	2,3-bisphosphoglycerate-independent phosphoglycerate mutase
+K16157	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mmoX	methane monooxygenase component A alpha chain
+K16158	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mmoY	methane monooxygenase component A beta chain
+K16159	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mmoZ	methane monooxygenase component A gamma chain
+K16160	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mmoB	methane monooxygenase regulatory protein B
+K16161	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mmoC	methane monooxygenase component C
+K16162	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mmoD	methane monooxygenase component D
+K16176	1	1	0	0	0	0	0	0	3	0	5	0.5	0.97182531580755	1.9436506316151	mtmB	methylamine---corrinoid protein Co-methyltransferase
+K16177	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtmC	monomethylamine corrinoid protein
+K16178	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtbB	dimethylamine---corrinoid protein Co-methyltransferase
+K16179	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	mtbC	dimethylamine corrinoid protein
+K16254	22	38	35	51	45	42	55	22	31	30	371	37.1	11.2984758067429	0.304541126866387	mxaJ	mxaJ protein
+K16255	1	3	7	1	1	3	4	3	4	4	31	3.1	1.85292561462497	0.597717940201604	mxaG	cytochrome c-L
+K16256	2	8	4	6	21	8	31	10	6	18	114	11.4	9.10677403548223	0.79883982767388	mxaA	mxaA protein
+K16257	6	7	8	4	19	9	32	11	6	18	120	12	8.64098759787715	0.720082299823096	mxaC	mxaC protein
+K16258	4	9	9	4	21	12	35	10	10	17	131	13.1	9.29097531060234	0.70923475653453	mxaK	mxaK protein
+K16259	4	7	5	5	22	8	34	9	7	18	119	11.9	9.75761810643925	0.819967908104139	mxaL	mxaL protein
+K16260	13	26	18	24	50	15	53	11	27	32	269	26.9	14.5941388539677	0.542533042898427	mxaD	mxaD protein
+K16305	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	K16305	fructose-bisphosphate aldolase / 6-deoxy-5-ketofructose 1-phosphate synthase
+K16306	5	8	2	4	0	1	1	3	4	3	31	3.1	2.33095116493961	0.751919730625681	K16306	fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+K16370	2	2	4	0	1	0	1	2	0	1	13	1.3	1.25166555703457	0.962819659257363	pfkB	6-phosphofructokinase 2
+K16792	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	aksD	methanogen homoaconitase large subunit
+K16793	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	aksE	methanogen homoaconitase small subunit
+K17066	0	0	0	2	0	0	0	0	0	0	2	0.2	0.632455532033676	3.16227766016838	MOX	alcohol oxidase
+K17067	1	0	5	34	21	5	17	31	0	24	138	13.8	13.2060592153753	0.956960812708358	mdo	formaldehyde dismutase / methanol dehydrogenase
+K17068	46	50	106	300	230	77	189	175	69	197	1439	143.9	86.6185122630646	0.601935457005313	fdm	formaldehyde dismutase
+K17100	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	DAS	dihydroxyacetone synthase
+K18277	3	4	8	2	7	7	5	6	2	6	50	5	2.16024689946929	0.432049379893857	tmm	trimethylamine monooxygenase
+K18933	8	7	8	6	1	11	6	5	13	3	68	6.8	3.5213633723318	0.517847554754677	mfnA, adc	tyrosine decarboxylase / aspartate 1-decarboxylase
+K19793	17	11	5	0	0	9	1	0	15	2	60	6	6.54896090146283	1.09149348357714	mfnC	(5-formylfuran-3-yl)methyl phosphate transaminase
+K21071	110	109	100	145	125	150	172	179	139	172	1401	140.1	28.6373881490614	0.204406767659253	pfk, pfp	ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase
+K22081	32	41	31	40	43	48	38	49	50	59	431	43.1	8.62103370960943	0.200023983981657	mgsA	methylamine---glutamate N-methyltransferase subunit A
+K22082	39	38	31	46	42	46	54	59	46	64	465	46.5	10.0471112487344	0.216066908574932	mgsB	methylamine---glutamate N-methyltransferase subunit B
+K22083	47	51	36	43	42	51	52	51	40	47	460	46	5.51764845241562	0.119948879400339	mgsC	methylamine---glutamate N-methyltransferase subunit C
+K22084	7	7	6	7	19	17	17	1	6	3	90	9	6.30696264280817	0.700773626978685	mgdA	methylglutamate dehydrogenase subunit A
+K22085	9	7	13	12	26	15	27	6	7	7	129	12.9	7.7667381970955	0.602072728457015	mgdB	methylglutamate dehydrogenase subunit B
+K22086	1	4	5	3	11	8	8	0	3	0	43	4.3	3.71333931776897	0.863567283202085	mgdC	methylglutamate dehydrogenase subunit C
+K22087	2	7	11	4	13	13	7	5	6	2	70	7	4.10960933531265	0.587087047901807	mgdD	methylglutamate dehydrogenase subunit D
+K22305	7	4	3	5	6	9	6	1	10	5	56	5.6	2.67498701969852	0.477676253517592	psp	phosphoserine phosphatase
+K22480	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	hdrA1	heterodisulfide reductase subunit A1
+K22481	1	1	5	1	4	1	0	1	2	1	17	1.7	1.56702123647242	0.921777197924954	hdrB1	heterodisulfide reductase subunit B1
+K22482	0	1	4	1	2	0	0	1	4	1	14	1.4	1.50554530541816	1.07538950387012	hdrC1	heterodisulfide reductase subunit C1
+K22515	28	41	39	36	36	28	33	22	34	30	327	32.7	5.75519089363874	0.175999721518004	fdwB	formate dehydrogenase beta subunit
+K22516	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	fdhA	formate dehydrogenase (coenzyme F420) alpha subunit
+K23995	17	25	30	35	29	24	34	17	19	25	255	25.5	6.53622385037586	0.256322503936308	xoxF	lanthanide-dependent methanol dehydrogenase
+K24182	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	PFK9	6-phosphofructokinase
+K24393	0	0	0	0	0	0	0	0	0	0	0	0	0	NA	comDE	sulfopyruvate decarboxylase

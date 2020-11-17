@@ -1,5 +1,7 @@
 # BRAILLE metagenomics binder
-An R [binder](https://mybinder.readthedocs.io/en/latest/) environment built to work with our [OSF site](https://osf.io/uhk48/wiki/home/) for this project. 
+An R [binder](https://mybinder.readthedocs.io/en/latest/) environment built with our [OSF site](https://osf.io/uhk48/wiki/home/) to be able to explore the functional info in R. 
+
+> Details and examples can be found at this [hackmd page](https://hackmd.io/@astrobiomike/BRAILLE-mg-exploring).
 
 **Click this launch binder badge to access the environment:**  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AstrobioMike/binder-BRAILLE/main?urlpath=rstudio)

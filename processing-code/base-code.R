@@ -1,3 +1,6 @@
+## this is not meant to be run in the binder environment, large input files are not present
+## it is here as reference as this is the code that produced the data and functions that are used in the binder
+## see our OSF for more details: https://osf.io/uhk48/wiki/home/
 
 # load("BRAILLE-mg.RData")
 
